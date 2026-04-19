@@ -24,7 +24,7 @@
     gap: clamp(0.2rem, 2vw, 3rem);
     list-style: none;
     flex-wrap: wrap;
-    flex-shrink: 2;
+    flex-shrink: 1;
     margin-top: clamp(0px, -30px, -40px);
 }
 
@@ -52,7 +52,7 @@ a:hover{
 
     .header-links ul{
         margin-top: 10px;
-        margin-left: 60px;
+        margin-left: 30px;
     }
 
     .lnk li{

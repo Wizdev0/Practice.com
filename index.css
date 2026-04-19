@@ -46,7 +46,7 @@ a:hover{
 
 /* Mobile size */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
 
     .logo{
         margin: 0 auto;

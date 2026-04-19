@@ -40,9 +40,7 @@ a:hover{
     color: greenyellow;
 }
 
-/* .lnk li{
-    flex: 0 0 25%;
-} */
+
 
 /* Mobile size */
 
@@ -56,4 +54,8 @@ a:hover{
         margin-top: 10px;
         margin-left: 60px;
     }
+
+    .lnk li{
+      flex: 0 0 10%;
+    } 
 }

@@ -44,7 +44,7 @@ a:hover{
 
 /* Mobile size */
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 480px) {
 
     .logo{
         margin: 0 auto;
@@ -52,10 +52,8 @@ a:hover{
 
     .header-links ul{
         margin-top: 10px;
-        margin-left: 30px;
+        margin-left: 0%;
     }
 
-    .lnk li{
-      flex: 0 0 10%;
-    } 
+
 }

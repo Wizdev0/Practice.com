@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: clamp(2rem, 4vw, 3rem);
+    background-color: bisque;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+}
+
+.header-links ul{
+    display: flex;
+    gap: clamp(0.2rem, 2vw, 3rem);
+    list-style: none;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    margin-top: clamp(0px, -30px, -40px);
+}
+
+a{
+    text-decoration: none;
+    color: Black;
+    font-family: "Public sans",sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+a:hover{
+    color: greenyellow;
+}
+
+
+
+/* Mobile size */
+
+@media screen and (max-width: 600px) {
+
+    .logo{
+        margin: 0 auto;
+    }
+
+    .header-links ul{
+        margin-top: 10px;
+        margin-left: 0%;
+    }
+
+    .lnk li{
+      flex: 0 0 10%;
+    } 
+}
